@@ -1,0 +1,81 @@
+#container{
+    width: 100%;
+    height: 300px;
+
+    display: flex;
+    gap: 10%;
+  
+}
+#cart{
+    width: 50%;
+    height: 100%;
+  
+    overflow-y: scroll;
+    row-gap: 20px;
+   
+
+
+}
+#cart>div>img{
+    width: 100px;
+}
+#check{
+    width: 40%;
+    height: 80%;
+    background-color: aliceblue;
+    margin-top: 15px;
+    
+}
+#cart>div{
+    display: flex;
+    margin: 20px;
+   
+   
+    
+}
+#cart>div>p{
+    margin: 25px;
+}
+#product{
+    display: flex;
+    margin-top: 30px;
+   
+}
+#product>p{
+    margin-right: 10%;
+}
+#prod:hover{
+    color: orange;
+}
+#total-div{
+    display: flex;
+    justify-content: space-between;
+}
+.btno{
+    display: block;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+.first{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+.first:hover{
+    background-color: orange;
+}
+.second:hover{
+    background-color: black;
+}
+.second{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+  
+}
+a{
+    text-decoration: none;
+}
